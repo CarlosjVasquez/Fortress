@@ -1,12 +1,12 @@
 .redes{
 	
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	background-image: url(../../assets/img/fondoredes3.jpg);
 	background-position: center;
 	background-size: 100%;
+	color: #fff;
 
 	padding: 5% 0;
     
@@ -16,124 +16,37 @@
 	width: 1200px;
 }
 
-.hoja{
-	display: inline-flex;
-	flex-direction: column;
-	width: 25%;
-	min-width: 22.5%;
-	height: 500px;
-	color: #000;
-
-	background: #ededed;
-	overflow: hidden;
-	border-radius: 10px;
-	box-shadow: 2px 2px 10px #89898a,
-	-2px -2px 10px #89898a,
-	-2px 2px 10px #89898a,
-	2px -2px 10px #89898a;
-
-}
-
-.sup{
-	margin: 0;
-	padding: 5%;
-	width: 90%;
-	display: inline-flex;
-	flex-direction: column;
-	color: #fff;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	
-	background: -webkit-linear-gradient(60deg, #F930A4 , #FE5100 );
-	background: -o-linear-gradient(60deg, #F930A4 , #FE5100 );
-	background: linear-gradient(150deg, #F930A4 , #FE5100);
-
-}
-
-.sup img{
-	max-width: 60px;
-	height: auto; 
-}
-
-
-
-.sup img{
-	max-width: 60px;
-	height: auto; 
-}
-
-.sup .text{
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	line-height: 0;
-}
-
-.sup .text p{
-	font-size: 0.7em;
-}
-
-.tiempo{
-	margin: 0;
-	padding: 5%;
-	width: 90%;
-	background: #2E008B;
-	color: #fff;
-	text-align: center;
-	
-}
-
-.tiempo p{
-	margin: 0;
-	padding: 0;
-	font-size: 0.8em;
-}
-
-.descripcion p, .descripcion h4{
-	margin: 0;
-	padding: 0;
-}
-
-.descripcion{
+.text{
 	display: flex;
 	flex-direction: column;
+	width: 60%;
+}
+
+.text .title{
+	position: absolute;
+	border-bottom: solid 2px #E74F64;
+	padding: 1.5% 1.5% 0 1.5%; 
+}
+
+.text .title h1{
+	padding: 0;
 	margin: 0;
-	padding: 5%;
-	width: 90%;
-	color: #090149;
-	text-align: center;
-	align-items: center;
+	font-size: 2.5em;
 }
 
-.descripcion p{
-	font-size: 0.8em;
+.text ul {
+	list-style: none;
 }
 
-.descripcion h4{
-	padding: 5% 0;
+.opc:nth-child(1){
+	margin-top: 10%; 
 }
 
-.descripcion a{
-	display: block;
-	width: 60%; 
-	margin: 10% 5% 5%;
-	padding: 5%;
-	text-decoration: none;
-	border-radius: 10px;
-	color: #fff;
-	box-shadow: 2px 2px 0px #444446,
-	-2px 2px 0px #444446;
-	font-size: 0.8em;
+.opc h3{
+	color: #E74F64;
+	font-size: 1.5em;
 }
 
-.hoja .descripcion a{
- 	background: -webkit-linear-gradient(30deg, #F930A4, #FE5100);
- 	background: -o-linear-gradient(30deg, #F930A4, #FE5100);
- 	background: linear-gradient(120deg, #F930A4, #FE5100);
- } 
-
-.descripcion a:hover{
-	box-shadow: inset 2px 2px 10px #444446,
-	inset -2px 2px 10px #444446;
+.opc .desc{
+	padding: 0 0 0 2%; 
 }
