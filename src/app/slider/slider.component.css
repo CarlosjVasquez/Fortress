@@ -26,6 +26,10 @@
 	animation-duration: 32s;
 	animation-name: slider;
 	animation-iteration-count: infinite;
+
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .slider h1{

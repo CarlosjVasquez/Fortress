@@ -15,6 +15,7 @@ export class ServiciosComponent implements OnInit {
 		$(document).ready(function(){
 
 			var flag = false;
+			var servicios = $('#servicios').offset().top;
 			var scroll;
 			var hoja1 = $('#hoja1');
 			var hoja2 = $('#hoja2');
@@ -25,7 +26,8 @@ export class ServiciosComponent implements OnInit {
 
 			scroll = $(window).scrollTop();
 
-			if(scroll > 300){
+
+			if(scroll > servicios - 100){
 
 				if (!flag) { 
 

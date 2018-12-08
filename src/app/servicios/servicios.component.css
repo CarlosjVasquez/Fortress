@@ -34,6 +34,8 @@
 	-2px 2px 10px #89898a,
 	2px -2px 10px #89898a;
 
+	transition-duration: 2s;
+
 }
 
 .sup{
@@ -62,13 +64,6 @@
 	background: linear-gradient(150deg, #FE6801 , #FEC401 );
 }
 
-#hoja1, #hoja4{
-	transition-duration: 2s;
-}
-
-#hoja2, #hoja3{
-	transition-duration: 3.25s;
-}
 
 #hoja1, #hoja2{
 	margin-right: 75%;

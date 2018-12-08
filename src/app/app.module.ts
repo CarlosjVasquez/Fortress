@@ -5,13 +5,17 @@ import { HeaderComponent } from './header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { RedesComponent } from './redes/redes.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { FooterComponent } from './footer/footer.components';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     SliderComponent,
     ServiciosComponent,
-    RedesComponent
+    RedesComponent,
+    ContactoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
@@ -21,7 +25,9 @@ import { RedesComponent } from './redes/redes.component';
   	HeaderComponent,
   	SliderComponent,
   	ServiciosComponent,
-    RedesComponent
+    RedesComponent,
+    ContactoComponent,
+    FooterComponent
   ]
 })
 export class AppModule { }

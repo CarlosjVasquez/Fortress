@@ -58,10 +58,11 @@
 
 .menu li {
 	display: flex;
+	justify-content: center;
 	text-align: center;
 	align-items: center;
 	width: 100%;
-	padding:5%;
+	padding: 3%;
 	border-radius: 0 0 10px 10px;
 
 	border-bottom: solid 4px transparent; 
@@ -72,6 +73,7 @@
 	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
+	width: 100%;
 }
 
 .menu li:hover{

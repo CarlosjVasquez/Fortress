@@ -1,0 +1,12 @@
+.contacto{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #174866;
+}
+
+.contenedor{
+	width: 1200px;
+}

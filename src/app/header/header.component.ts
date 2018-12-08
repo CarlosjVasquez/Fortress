@@ -17,6 +17,7 @@ export class HeaderComponent implements OnInit {
 			var cont = $('#header');
 			var img1 = $('#img1');
 			var img2 = $('#img2');
+			var menu = $('#menu');
 			var scrolltop ;
 
 			$(window).scroll(function(){
@@ -41,6 +42,7 @@ export class HeaderComponent implements OnInit {
 							'height':'30px',
 							'background':'#174866'
 						});
+
 
 						
 
@@ -78,6 +80,36 @@ export class HeaderComponent implements OnInit {
 
 			})
 
+
+			$('#link1').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#redes').offset().top - 100 }, 1000);
+			});
+
+			$('#link2').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#radio').offset().top - 100 }, 1000);
+			});
+
+			$('#link3').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#pgweb').offset().top - 100 }, 1000);
+			});
+
+			$('#link4').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#publicidad').offset().top - 100 }, 1000);
+			});
+
+			$('#link5').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#servicios').offset().top - 100 }, 1000);
+			});
+
+			$('#link6').on('click', function(e) {
+    			e.preventDefault();
+    			$("html, body").animate({scrollTop: $('#contacto').offset().top - 100 }, 1000);
+			});
 
 		})	
 	}
