@@ -23,7 +23,6 @@
 	align-items: center;
 	list-style: none;
 	margin: 0;
-	padding: 0 1%;
 	color: #fff;
 
 }
@@ -67,4 +66,46 @@
 
 .menu img:nth-child(1){
 	width: 80%;
+}
+
+.menu li ul li img{
+	width: 25px;
+	height: 25px;
+}
+
+.menu .contacto li{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+}
+
+.menu .contacto li p{
+	margin-left: 1%;
+}
+
+.derechos{
+	width: 100%;
+	background: #4B0468;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.derechos p{
+	margin: 0;
+	padding: 2%;
+	color: #fff;
+	font-weight: 700;
+}
+
+.derechos p a{
+	text-decoration: none;
+	color: #fff;
+	transition-duration: .2s;
+}
+.derechos p a:hover{
+	color: #174866;
 }
