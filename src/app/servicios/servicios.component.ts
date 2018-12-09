@@ -27,7 +27,7 @@ export class ServiciosComponent implements OnInit {
 			scroll = $(window).scrollTop();
 
 
-			if(scroll > servicios - 100){
+			if(scroll > servicios - 150){
 
 				if (!flag) { 
 

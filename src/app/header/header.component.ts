@@ -17,7 +17,6 @@ export class HeaderComponent implements OnInit {
 			var cont = $('#header');
 			var img1 = $('#img1');
 			var img2 = $('#img2');
-			var menu = $('#menu');
 			var scrolltop ;
 
 			$(window).scroll(function(){
